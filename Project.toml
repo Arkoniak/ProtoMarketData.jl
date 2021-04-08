@@ -3,11 +3,21 @@ uuid = "9bacf63e-17db-4656-8903-324ad53af7c5"
 authors = ["Andrey Oskin"]
 version = "0.1.0"
 
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
+Temporal = "a110ec8f-48c8-5d59-8f7e-f91bc4cc0c3d"
+TimeSeries = "9e3dc215-6440-5c97-bce1-76c03772f85e"
+Timestamps = "0123453a-27b6-4e80-93fe-c2c00e33fefb"
 
 [compat]
 julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
 test = ["Test"]

@@ -15,6 +15,7 @@ Timestamps = "0123453a-27b6-4e80-93fe-c2c00e33fefb"
 
 [compat]
 DataFrames = "0.22"
+TimeSeries = "0.22"
 julia = "1"
 
 [extras]

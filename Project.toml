@@ -15,7 +15,7 @@ Timestamps = "0123453a-27b6-4e80-93fe-c2c00e33fefb"
 
 [compat]
 CSV = "0.8"
-DataFrames = "0.22"
+DataFrames = "0.22, 1.0"
 Tables = "1"
 Temporal = "0.8"
 TimeSeries = "0.22"
